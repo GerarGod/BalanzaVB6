@@ -21,5 +21,4 @@
 *.SCC
 conexion*
 Conexion*
-!/instaladores/configuracion/*.ora
-/instaladores/*.exe
+/Instalador/*
