@@ -1,0 +1,130 @@
+[Root]
+Most Recent Package=Balamza1
+
+
+[Package|Balamza1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\DesarrolloVs\6.0\Balanza\Instalador
+
+[Package|Balamza1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Balamza1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Balamza1|Files Found]
+
+[Package|Balamza1|Files Released]
+
+[Package|Balamza1|Missing Dependency Information]
+C:\Windows\SysWOW64\pdfcom.dll=
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\VB6.OLB=
+
+[Package|Balamza1|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+
+[Package|Balamza1|Files Added]
+c:\program files (x86)\common files\system\ado\msado15.dll=
+c:\program files (x86)\microsoft visual studio\vb98\vb6.olb=
+c:\desarrollovs\6.0\balanza\config.ini=
+C:\DesarrolloVs\6.0\Balanza\dtrImpresion.Dsr=
+
+[Package|Balamza1|Files Removed]
+
+[Package|Balamza1|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\oleaut32.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\olepro32.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\asycfilt.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\comcat.dll=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\SysWOW64\pdfcom.dll=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\STDFTES.DLL=Yes
+C:\Windows\SysWOW64\MSComm32.Ocx=Yes
+C:\Windows\SysWOW64\MSCOMES.DLL=Yes
+C:\Windows\SysWOW64\mscomctl.OCX=Yes
+C:\Windows\SysWOW64\MSCMCES.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado15.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\VB6.OLB=Yes
+C:\DesarrolloVs\6.0\Balanza\config.ini=Yes
+C:\DesarrolloVs\6.0\Balanza\Balanza.exe=Yes
+C:\Windows\SysWOW64\MSDbRptr.dll=Yes
+C:\Windows\SysWOW64\DBRPRES.DLL=Yes
+C:\DesarrolloVs\6.0\Balanza\dtrImpresion.Dsr=Yes
+
+[Package|Balamza1|Configure Registry Files]
+Applicable=No
+
+[Package|Balamza1|Configure Remote Servers]
+Applicable=No
+
+[Package|Balamza1|Install Locations]
+C:\DesarrolloVs\6.0\Balanza\frmBalanza.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\oleaut32.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\olepro32.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\asycfilt.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\comcat.dll=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\pdfcom.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\STDFTES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSComm32.Ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\mscomctl.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCMCES.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files (x86)\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\VB6.OLB=$(WinSysPath)
+C:\DesarrolloVs\6.0\Balanza\config.ini=$(AppPath)
+C:\DesarrolloVs\6.0\Balanza\Balanza.exe=$(AppPath)
+C:\Windows\SysWOW64\MSDbRptr.dll=$(WinSysPath)
+C:\Windows\SysWOW64\DBRPRES.DLL=$(WinSysPath)
+C:\DesarrolloVs\6.0\Balanza\dtrImpresion.Dsr=$(AppPath)
+
+[Package|Balamza1|Configure Shared Files]
+Applicable=Yes
+C:\DesarrolloVs\6.0\Balanza\frmBalanza.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\DesarrolloVs\6.0\Balanza\config.ini=No
+C:\DesarrolloVs\6.0\Balanza\Balanza.exe=No
+C:\DesarrolloVs\6.0\Balanza\dtrImpresion.Dsr=No
+
+[Package|Balamza1|Distribution]
+Type=single
+Size=
+Title=Balanza
+
+[Package|Balamza1|IconGroups]
+Group0=Balanza
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Balamza1|Balanza]
+Icon1=frmBalanza.exe
+Title1=Balanza
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Balamza1|Package]
+PackageFolder=C:\DesarrolloVs\6.0\Balanza\Instalador
+ProjectFolder=C:\DesarrolloVs\6.0\Balanza
+ServerSideCab=
+File1=C:\DesarrolloVs\6.0\Balanza\Instalador\setup.exe
+File2=C:\DesarrolloVs\6.0\Balanza\Instalador\Setup.Lst
+File3=C:\DesarrolloVs\6.0\Balanza\Instalador\Balanza.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
