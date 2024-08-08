@@ -16,6 +16,7 @@
 *.html
 *.db
 *.txt
+*.exe
 !/PLANTILLAS/REPORTES/*.htm
 !/PLANTILLAS/REPORTES/*.html
 *.SCC
